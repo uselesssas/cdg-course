@@ -5,19 +5,8 @@ require:
 AllCops:
   NewCops: enable
 
-Metrics/BlockLength:
-  Exclude:
-    - spec/**/*.rb
-
-Layout/LineLength:
-  Exclude:
-    - spec/**/*.rb
+RSpec/DescribeClass:
+  Enabled: false
 
 Style/Documentation:
   Enabled: false
-
-RSpec/MultipleExpectations:
-  Max: 10
-
-RSpec/ExampleLength:
-  Max: 20

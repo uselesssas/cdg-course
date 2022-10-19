@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require_relative '../foobar'
+
 RSpec.describe '#foobar' do
   it 'if none is equal to 20' do
     expect(foobar(5, 5)).to eq(10)
