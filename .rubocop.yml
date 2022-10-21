@@ -10,3 +10,6 @@ RSpec/DescribeClass:
 
 Style/Documentation:
   Enabled: false
+
+RSpec/ExampleLength:
+  Enabled: false
