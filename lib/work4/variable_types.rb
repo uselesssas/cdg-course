@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+# rubocop:disable Lint/UselessAssignment, Lint/MissingCopEnableDirective
+
 # Local variable
 orange = 300
 apple = 120

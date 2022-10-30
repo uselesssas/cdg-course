@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-def cs(word)
-  if /CS$/.match?(word) # слово заканчивается 'CS'?
+def ends_with_cs?(word)
+  if /CS$/.match?(word)
     2**word.length
   else
     word.reverse
@@ -9,4 +9,4 @@ def cs(word)
 end
 
 print 'Введите слово: '
-print cs(gets.chomp)
+puts ends_with_cs?(gets.chomp)
